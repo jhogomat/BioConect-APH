@@ -1,0 +1,7 @@
+{
+  "name": "BioConnect APH - Cloud System",
+  "description": "Uma plataforma avançada para automação de Atendimento Pré-Hospitalar (APH), integrando coleta de dados estruturada via protocolo ABCDE, análise de perfil comportamental DISC e dashboards gerenciais com insights inteligentes via Gemini AI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
