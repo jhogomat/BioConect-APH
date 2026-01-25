@@ -83,6 +83,7 @@ export interface MedicalTeam {
 export interface APHRecord {
   id: string;
   timestamp: string;
+  date: string;
   triggerId: string;
   triggerTime: string;
   arrivalTime: string;
@@ -94,6 +95,8 @@ export interface APHRecord {
   trl: number;
   kpiTarget: string;
   patientName: string;
+  patientBirthDate: string;
+  motherName: string;
   patientAge: number;
   location: string;
   priority: RiskPriority;
